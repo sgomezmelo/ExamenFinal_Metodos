@@ -49,7 +49,7 @@ IM_filt = np.zeros(n)
 
 for i in range(n):
     w = omega[i]
-    if(w <= 10):
+    if(w <= 10000):
         RE_filt[i] = fourier_Re[i]
         IM_filt[i] = fourier_Im[i]
 
